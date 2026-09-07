@@ -1,0 +1,13 @@
+canvas 200 200
+palette #ffffff #111111 #e94560 #3a86ff
+
+# Left leg, then the right leg as a mirror across the vertical center.
+line x=58 y=174 length=138 angle=-72 width=12 color=1
+mirror axis=y pivot=100
+
+# Crossbar.
+line x=78 y=116 length=44 angle=0 width=9 color=2
+
+# A tiny repeated accent to show repeat as preprocessing.
+curve x=34 y=28 length=22 bend_at=11 bend=-8 width=3 color=3
+repeat count=5 dx=32

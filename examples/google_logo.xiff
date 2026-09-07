@@ -1,0 +1,27 @@
+canvas 540 180
+palette #ffffff #4285f4 #db4437 #f4b400 #0f9d58
+
+# Google-style wordmark built from XIFF fundamentals.
+# G
+arc x=72 y=90 r=46 start=205 end=300 width=12 color=1
+arc x=72 y=90 r=46 start=300 end=25 width=12 color=2
+arc x=72 y=90 r=46 start=25 end=142 width=12 color=3
+arc x=72 y=90 r=46 start=142 end=205 width=12 color=4
+line x=72 y=90 length=38 angle=0 width=12 color=1
+line x=106 y=90 length=22 angle=90 width=12 color=1
+
+# o o
+circle x=158 y=96 r=28 fill=0 width=11 color=2
+circle x=224 y=96 r=28 fill=0 width=11 color=3
+
+# g
+circle x=292 y=96 r=28 fill=0 width=11 color=1
+line x=318 y=96 length=45 angle=90 width=11 color=1
+arc x=292 y=138 r=28 start=0 end=205 width=11 color=1
+
+# l
+line x=362 y=50 length=82 angle=90 width=11 color=4
+
+# e
+arc x=426 y=96 r=28 start=30 end=330 width=11 color=2
+line x=402 y=96 length=48 angle=0 width=11 color=2

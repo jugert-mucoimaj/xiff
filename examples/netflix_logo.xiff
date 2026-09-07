@@ -1,0 +1,36 @@
+canvas 700 180
+palette #141414 #e50914 #b00610
+
+# Netflix-style wordmark built from XIFF fundamentals.
+# Background is palette color 0.
+
+# N
+rect x=34 y=34 w=18 h=112 color=1
+rect x=92 y=34 w=18 h=112 color=1
+rect x=40 y=36 w=18 h=116 angle=-26 color=2
+
+# E
+rect x=142 y=34 w=18 h=112 color=1
+rect x=142 y=34 w=62 h=17 color=1
+rect x=142 y=81 w=52 h=16 color=1
+rect x=142 y=129 w=64 h=17 color=1
+
+# T
+rect x=226 y=34 w=78 h=18 color=1
+rect x=256 y=34 w=18 h=112 color=1
+
+# F
+rect x=326 y=34 w=18 h=112 color=1
+rect x=326 y=34 w=66 h=17 color=1
+rect x=326 y=82 w=52 h=16 color=1
+
+# L
+rect x=414 y=34 w=18 h=112 color=1
+rect x=414 y=129 w=62 h=17 color=1
+
+# I
+rect x=496 y=34 w=18 h=112 color=1
+
+# X
+rect x=550 y=34 w=18 h=126 angle=-28 color=1
+rect x=606 y=34 w=18 h=126 angle=28 color=1

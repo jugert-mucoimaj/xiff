@@ -1,0 +1,50 @@
+canvas 720 420
+palette #0b1020 #f7f3e8 #ff4d6d #4cc9f0 #f9c74f #80ed99 #9b5de5
+
+# Freeform XIFF art: Orbit Bloom.
+# Built from local x-axis curves, arcs, mirrors, repeats, and simple fills.
+
+# central warm core
+circle x=360 y=210 r=28 color=4
+circle x=360 y=210 r=13 color=1
+
+# crossing orbital rings
+arc x=360 y=210 r=145 start=0 end=360 width=3 color=3
+arc x=360 y=210 r=145 start=0 end=360 angle=58 width=3 color=6
+arc x=360 y=210 r=145 start=0 end=360 angle=-58 width=3 color=5
+
+# main asymmetric petals, then mirrored
+curve x=360 y=210 length=188 bend_at=58 bend=-86 angle=-18 width=8 color=2
+mirror axis=y pivot=360 color=3
+curve x=360 y=210 length=176 bend_at=118 bend=76 angle=162 width=7 color=6
+mirror axis=x pivot=210 color=5
+
+# repeated solar flares
+curve x=360 y=210 length=126 bend_at=64 bend=-46 angle=-90 width=5 color=4
+repeat count=8 dangle=45
+
+# outer blue wave ribbons
+wave x=104 y=108 length=180 amp=18 cycles=1.5 angle=18 width=4 color=3
+mirror axis=y pivot=360 color=3
+wave x=114 y=318 length=180 amp=18 cycles=1.5 angle=-18 width=4 color=6
+mirror axis=y pivot=360 color=6
+
+# small sparks
+circle x=178 y=82 r=7 color=2
+circle x=542 y=82 r=7 color=5
+circle x=126 y=230 r=5 color=4
+circle x=594 y=230 r=5 color=4
+circle x=208 y=338 r=6 color=3
+circle x=512 y=338 r=6 color=6
+
+# geometric anchors
+rect x=350 y=42 w=20 h=58 angle=0 color=1
+rect x=350 y=320 w=20 h=58 angle=0 color=1
+rect x=58 y=200 w=58 h=20 angle=0 color=1
+rect x=604 y=200 w=58 h=20 angle=0 color=1
+
+# subtle diagonal blades
+curve x=210 y=350 length=142 bend_at=45 bend=-32 angle=-38 width=4 color=5
+mirror axis=y pivot=360 color=2
+curve x=210 y=70 length=142 bend_at=45 bend=32 angle=38 width=4 color=3
+mirror axis=y pivot=360 color=6

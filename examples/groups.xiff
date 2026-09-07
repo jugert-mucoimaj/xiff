@@ -1,0 +1,18 @@
+canvas 260 180
+palette #ffffff #111111 #e94560 #3a86ff
+
+group name=A
+  line x=48 y=154 length=118 angle=-72 width=10 color=1
+  mirror axis=y pivot=90
+  line x=68 y=106 length=44 angle=0 width=8 color=2
+end
+
+group name=spark
+  curve x=0 y=0 length=22 bend_at=11 bend=-8 width=3 color=3
+  repeat count=4 dx=30
+end
+
+place name=A x=0 y=0 scale=1
+place name=A x=128 y=38 scale=0.62 angle=10
+place name=spark x=28 y=24 scale=1
+place name=spark x=142 y=20 scale=0.8 angle=8

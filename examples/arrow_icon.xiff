@@ -1,0 +1,11 @@
+canvas 256 256
+palette #ffffff #111827
+
+# Minimal arrow icon built from XIFF fundamentals.
+
+# shaft
+line x=58 y=128 length=122 angle=0 width=20 color=1
+
+# arrowhead, aligned to the shaft endpoint.
+line x=180 y=128 length=58 angle=-135 width=20 color=1
+line x=180 y=128 length=58 angle=135 width=20 color=1

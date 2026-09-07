@@ -1,0 +1,27 @@
+canvas 420 420
+palette #ffffff #111111 #6b7280
+
+# OpenAI-inspired interlocking knot mark.
+# This is not a traced official logo; it is a XIFF stress test for
+# repeated rotated curves, arcs, and compositional symmetry.
+
+# six outer lobes
+curve x=210 y=90 length=104 bend_at=52 bend=-34 angle=0 width=18 color=1
+repeat count=6 dangle=60
+
+# six inner return curves
+curve x=210 y=132 length=82 bend_at=41 bend=28 angle=30 width=16 color=1
+repeat count=6 dangle=60
+
+# central negative-space guide in background color
+circle x=210 y=210 r=42 color=0
+
+# six small connector arcs around the center
+arc x=210 y=210 r=72 start=-18 end=42 width=15 color=1
+repeat count=6 dangle=60
+
+# trim the center a bit to keep the knot airy
+circle x=210 y=210 r=28 color=0
+
+# subtle outer alignment ring, intentionally light
+arc x=210 y=210 r=123 start=0 end=360 width=2 color=2

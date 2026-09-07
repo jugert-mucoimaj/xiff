@@ -1,0 +1,36 @@
+canvas 760 180
+palette #ffffff #1877f2 #0b5ec9
+
+# Facebook-style geometric wordmark built from XIFF fundamentals.
+# This approximates the rounded lowercase wordmark with simple math primitives.
+
+# f
+line x=58 y=145 length=78 angle=-90 width=14 color=1
+arc x=82 y=66 r=24 start=180 end=300 width=14 color=1
+line x=58 y=92 length=52 angle=0 width=14 color=1
+
+# a
+circle x=154 y=112 r=31 fill=0 width=13 color=1
+line x=184 y=84 length=61 angle=90 width=13 color=1
+
+# c
+arc x=255 y=112 r=32 start=48 end=312 width=13 color=1
+
+# e
+arc x=341 y=112 r=32 start=35 end=330 width=13 color=1
+line x=314 y=112 length=55 angle=0 width=13 color=1
+
+# b
+line x=407 y=145 length=104 angle=-90 width=13 color=1
+circle x=438 y=112 r=31 fill=0 width=13 color=1
+
+# o
+circle x=524 y=112 r=31 fill=0 width=13 color=1
+
+# o
+circle x=610 y=112 r=31 fill=0 width=13 color=1
+
+# k
+line x=676 y=145 length=104 angle=-90 width=13 color=1
+line x=683 y=113 length=44 angle=-42 width=13 color=1
+line x=684 y=114 length=45 angle=42 width=13 color=1
